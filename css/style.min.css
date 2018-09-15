@@ -2,10 +2,6 @@
 /*!
 * Based on Bootstrap v4.0.0 (https://getbootstrap.com)
 */
-@import url("https://fonts.googleapis.com/css?family=Neue Helvetica Thai");
-@import url("https://fonts.googleapis.com/css?family=Neue Helvetica® Thai");
-@import url("https://fonts.googleapis.com/css?family=Neue Helvetica® Thai");
-@import url("https://fonts.googleapis.com/css?family=helvetica");
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -46,6 +42,18 @@
 *::before,
 *::after {
   box-sizing: border-box; }
+
+  @font-face {
+font-family: 'Atiga';
+src: url('fonts/Atiga-Regular.ttf'),
+ url(../fonts/Atiga-Regular.ttf) format('truetype');
+}
+
+@font-face {
+font-family: 'Atiga Extra Bold';
+src: url('fonts/Atiga-ExtraBold.ttf'),
+url(../fonts/Atiga-ExtraBold.ttf) format('truetype');
+}
 
 html {
   font-family: sans-serif;
